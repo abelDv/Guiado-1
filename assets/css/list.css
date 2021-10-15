@@ -1,0 +1,17 @@
+.class-list{
+    width: 100%;
+    border-spacing: 0;
+}
+
+.class-list tr:nth-child(1){
+    vertical-align: top;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.class-list tr td{
+    padding: 5px;
+}
