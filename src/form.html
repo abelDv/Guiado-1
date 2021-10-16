@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastrar</title>
     <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/form.css">
 </head>
 <body>
     <header class="cabecalho">
@@ -17,19 +18,19 @@
         
     </div>
     <section>
-        <form action="">
+        <form class="form">
             <div>
-                <label for="name">Nome: </label>
+                <label class="big-label" for="name">Nome: </label>
                 <input name="name" id="name" type="text" required />
                 
             </div>
            <div>
-            <label for="phone">Telefone: </label>
+            <label class="big-label" for="phone">Telefone: </label>
             <input name="phone" id="phone" type="tel" required />
             
            </div>
            <div>
-            <label >Esperiência Prévia: </label>
+            <label >Esperiência Prévia: </label><br>
             <input name="exper" id="exper-yes" type="radio" required /><label for="exper-yes">Sim</label>
             <input name="exper" id="exper-no" type="radio" required /><label for="exper-no">Não</label>
            </div>
