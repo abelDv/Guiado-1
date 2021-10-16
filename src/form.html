@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastrar</title>
-    <link rel="stylesheet" href="../assets/css/style.css">
+     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/form.css">
 </head>
 <body>
@@ -19,21 +19,28 @@
     </div>
     <section>
         <form class="form">
-            <div>
+            <div class="line-form">
                 <label class="big-label" for="name">Nome: </label>
                 <input name="name" id="name" type="text" required />
-                
             </div>
-           <div>
+           <div class="line-form">
             <label class="big-label" for="phone">Telefone: </label>
-            <input name="phone" id="phone" type="tel" required />
-            
+            <input name="phone" id="phone" type="text" required />
            </div>
-           <div>
-            <label >Esperiência Prévia: </label><br>
-            <input name="exper" id="exper-yes" type="radio" required /><label for="exper-yes">Sim</label>
-            <input name="exper" id="exper-no" type="radio" required /><label for="exper-no">Não</label>
-           </div>
+
+           <div class="line-form exp-line" style="display: flex;">
+                <label class="big-label">Esperiência Prévia: </label>
+               
+                <div>
+                    <input name="exper" id="exper-yes" type="radio" required />
+                    <label for="exper-yes">Sim</label><br>
+                    <input name="exper" id="exper-no" type="radio" required />
+                    <label for="exper-no">Não</label>
+                </div>   
+
+            </div>
+
+            <input type="submit" value="Salvar">
            
         </form>
     </section>
